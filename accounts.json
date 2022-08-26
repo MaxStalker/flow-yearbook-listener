@@ -1,0 +1,28 @@
+{
+  "0x1": {
+    "email": "test@gmail.com",
+    "mainnet": {
+      "address": "0x01",
+      "floatInitialized": false,
+      "floatDestributed": false
+    },
+    "testnet": {
+      "address": "0x1",
+      "yearbookCreated": false,
+      "yearbookSigend": false
+    }
+  },
+  "0x2": {
+    "email": "second@mail.org",
+    "mainnet": {
+      "address": "0x03",
+      "floatInitialized": false,
+      "floatDestributed": false
+    },
+    "testnet": {
+      "address": "0x2",
+      "yearbookCreated": false,
+      "yearbookSigend": false
+    }
+  }
+}
