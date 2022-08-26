@@ -1,0 +1,26 @@
+{
+  "name": "flow-yearbook-listener",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaxStalker/flow-yearbook-listener.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MaxStalker/flow-yearbook-listener/issues"
+  },
+  "homepage": "https://github.com/MaxStalker/flow-yearbook-listener#readme",
+  "dependencies": {
+    "esm": "^3.2.25",
+    "@onflow/fcl": "1.2.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.7.1"
+  }
+}
