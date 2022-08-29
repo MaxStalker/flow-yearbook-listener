@@ -11,12 +11,12 @@ if (data) {
       mainnet: {
         address: mainnet,
         floatInitialized: false,
-        floatDestributed: false,
+        floatDistributed: false,
       },
       testnet: {
         address: testnet,
         yearbookCreated: false,
-        yearbookSigend: false,
+        yearbookSigned: false,
       },
     };
   }
