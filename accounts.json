@@ -3,26 +3,30 @@
     "email": "test@gmail.com",
     "mainnet": {
       "address": "0x01",
+      "checked": false,
       "floatInitialized": false,
-      "floatDestributed": false
+      "floatDistributed": false
     },
     "testnet": {
       "address": "0x1",
+      "checked": false,
       "yearbookCreated": false,
-      "yearbookSigend": false
+      "yearbookSigned": false
     }
   },
   "0x2": {
     "email": "second@mail.org",
     "mainnet": {
       "address": "0x03",
+      "checked": false,
       "floatInitialized": false,
-      "floatDestributed": false
+      "floatDistributed": false
     },
     "testnet": {
       "address": "0x2",
+      "checked": false,
       "yearbookCreated": false,
-      "yearbookSigend": false
+      "yearbookSigned": false
     }
   }
 }

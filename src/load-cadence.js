@@ -1,8 +1,6 @@
 import { loadCadenceFile } from "./parser";
 import { query, config } from "@onflow/fcl";
 
-config({ "accessNode.api": "https://rest-testnet.onflow.org" });
-
 (async () => {
   const [cadence, err] = loadCadenceFile("script/check-yearbook-created");
   if (!err) {

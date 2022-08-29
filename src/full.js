@@ -1,6 +1,7 @@
-import { getAccount } from "./pk";
+import { getAccount, processCSV, setNetwork, checkQuest } from "./utils";
 
 (async () => {
-  const hero = getAccount("hero");
-  console.log({ hero });
+  // This will import ./data.csv file and export to accounts.json file
+  processCSV();
+  checkQuest();
 })();
